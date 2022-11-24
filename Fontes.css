@@ -1,0 +1,47 @@
+/*Aprendendo sobre a família de fontes*/
+/*Dependendo da família, naõ se consegue acessar todas as propriedades da fonte*/
+font-family
+font-weight
+font-style
+font-size
+
+font-family
+/*Tipo de fonte de um elemento*/
+/*Lista de fontes e ordem de prioridade*/
+/*Faz um tipo de fallback - significa que a indica outra fonte caso a primeira não deu certo*/
+    Um exemplo: 
+    p{
+        font-family:"Times New Romam", Times, serif;
+    }
+
+font-weight
+/*Peso da fonte*/
+/*Values: normal, bold, bolder, lighter, 100, 200, 3000, até 900..
+Initial: normal
+*/
+p{
+    font-family:"Times New Romam", Times, serif;
+    font-weight: bold;
+}
+
+font-style
+/*Estilo, itálico, oblique, normal(padrão)*/
+p{
+    font-family:"Times New Romam", Times, serif;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+font-size
+/**/
+p{
+    font-family:"Times New Romam", Times, serif;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 1.2rem; /*rem - root element*/
+    /*O tamanho padrão das fontes no CSS são 16px*/
+}
+
+Web Fonts 
+Podemos usar fontes da Web, do localhost ou de outro local.
+
